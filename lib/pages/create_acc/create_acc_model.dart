@@ -11,7 +11,7 @@ class CreateAccModel extends FlutterFlowModel<CreateAccWidget> {
   TextEditingController? emailAddressTextController;
   String? Function(BuildContext, String?)? emailAddressTextControllerValidator;
   // State field(s) for password widget.
-  FocusNode? passwordFocusNode;
+  FocusNode? passwordFocusNode;   
   TextEditingController? passwordTextController;
   late bool passwordVisibility;
   String? Function(BuildContext, String?)? passwordTextControllerValidator;
